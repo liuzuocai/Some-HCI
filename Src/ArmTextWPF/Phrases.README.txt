@@ -1,0 +1,16 @@
+---------------------------------------
+phrases: 42
+minimum length: 30
+maximum length: 30
+average phrase length: 30.0
+---------------------------------------
+words: 233
+unique words: 160
+minimum length: 1
+maximum length: 13
+average word length: 4.59
+words containing non-letters: 0
+---------------------------------------
+letters: 1260
+correlation with English: 0.9309
+---------------------------------------
