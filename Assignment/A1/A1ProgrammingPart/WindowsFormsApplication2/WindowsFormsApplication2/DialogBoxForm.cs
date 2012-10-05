@@ -9,31 +9,32 @@ using System.Windows.Forms;
 
 namespace WindowsFormsApplication2
 {
-    public partial class Form1 : Form
+    public partial class DialogBoxForm : Form
     {
         Size formsize;
-        public Form1()
+
+        public DialogBoxForm()
         {
             InitializeComponent();
             formsize = new Size(423, 190);
         }
 
-        private void button3_Click(object sender, EventArgs e)
+        private void onClickExist(object sender, EventArgs e)
         {
             Application.Exit();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void onClickDetail(object sender, EventArgs e)
         {
             if( Size == formsize )
             {
                 Size = new Size(423, 290);
-                button1.Text = "▲Details";
+                bt_Details.Text = "▲Details";
             }
             else
             {
                 Size = new Size(423, 190);
-                button1.Text = "▼Details";
+                bt_Details.Text = "▼Details";
             }
         }
     }

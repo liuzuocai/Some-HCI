@@ -1,6 +1,6 @@
 ﻿namespace WindowsFormsApplication3
 {
-    partial class Form1
+    partial class MenuForm
     {
         /// <summary>
         /// Required designer variable.

@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="pictureBox1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="pb_Warning.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         /9j/4AAQSkZJRgABAQEAYABgAAD/2wBDAAMCAgMCAgMDAwMEAwMEBQgFBQQEBQoHBwYIDAoMDAsKCwsN
         DhIQDQ4RDgsLEBYQERMUFRUVDA8XGBYUGBIUFRT/2wBDAQMEBAUEBQkFBQkUDQsNFBQUFBQUFBQUFBQU
@@ -226,7 +226,7 @@
         fcV+ujKM1+RP/BV0AftLaX/2LVr/AOj7mgaP/9k=
 </value>
   </data>
-  <data name="label2.Text" xml:space="preserve">
+  <data name="lb_Description.Text" xml:space="preserve">
     <value>The provided filter string is invalid. The filter string should contain a description of the filter, followed by the vertical bar(|) and the filter pattern. The strings for different filtering options should also be separated by the vertical bar. Example: "Text files(*.txt)|*.txt|All files(*.*|*.*)"</value>
   </data>
 </root>
